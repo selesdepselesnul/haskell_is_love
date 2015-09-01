@@ -1,5 +1,5 @@
 module List (List(..), append) where
--- reimplementing linked list data structure :v
+-- reimplement linked list data structure :v
 
 data List a = EmptyList | List {item :: a, next :: List a}
     deriving (Show)
